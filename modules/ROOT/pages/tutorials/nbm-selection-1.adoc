@@ -43,7 +43,7 @@ This tutorial is part 1 of a series. Part 2 builds on this tutorial to explain h
 
 == Introduction to Selection
 
-"Selection" is an important concept for any non-trivial application. NetBeans has two basic concepts of selection - the contents of the focused xref:wiki::wiki/DevFaqWindowsTopComponent.adoc[TopComponent]'s xref:wiki::wiki/DevFaqLookup.adoc[Lookup], and the focused `TopComponent`'s  xref:wiki::wiki/DevFaqWhatIsANode.adoc[ activated `Node`(s)]. Here you will deal only with the  `Lookup`  portion of selection - doing more advanced things will be covered later in this series.
+"Selection" is an important concept for any non-trivial application. NetBeans has two basic concepts of selection - the contents of the focused xref:wiki:netbeansdevelopperfaq:DevFaqWindowsTopComponent.adoc[TopComponent]'s xref:wiki:netbeansdevelopperfaq:DevFaqLookup.adoc[Lookup], and the focused `TopComponent`'s  xref:wiki:netbeansdevelopperfaq:DevFaqWhatIsANode.adoc[ activated `Node`(s)]. Here you will deal only with the  `Lookup`  portion of selection - doing more advanced things will be covered later in this series.
 
 Selection enables things such as context sensitive actions (actions that are enabled or disabled depending on what is displayed), and palette windows such as the Property Sheet or Navigator components in the IDE, which each display some aspect of whatever is selected.
 
@@ -528,7 +528,7 @@ So the key point of this tutorial is the way the code is split into three module
 
 To really picture the value of this, imagine `Event` were something much more complex; imagine that `MyEditor` is an image editor, and ` Event` represents an image being edited. The thing that's powerful here is that you could replace `MyEditor` with, say, an SVG vector-based editor, and the viewer component (presumably showing attributes of the currently edited image) will work transparently with that new editor. It is this model of doing things that is the reason you can add new tools into the NetBeans IDE that work against Java files, and they will work in different versions of NetBeans, and that you can have an alternate editor (such as the form editor) for Java files and all the components and actions that work against Java files still work when the form editor is used.
 
-This is very much the way NetBeans works with Java and other source files-in their case, the thing that is available from the editor's Lookup is a ` xref:wiki::wiki/DevFaqDataObject.adoc[DataObject]`, and components like Navigator and the Property Sheet are simply watching what object is being made available by the focused `TopComponent`.
+This is very much the way NetBeans works with Java and other source files-in their case, the thing that is available from the editor's Lookup is a ` xref:wiki:netbeansdevelopperfaq:DevFaqDataObject.adoc[DataObject]`, and components like Navigator and the Property Sheet are simply watching what object is being made available by the focused `TopComponent`.
 
 Another valuable thing about this approach is that often people are migrating existing applications to the NetBeans Platform. The object that is part of the data model, in that case, is probably existing, working code that should not be changed in order to integrate it into NetBeans. By keeping the data model's API in a separate module, the NetBeans integration can be kept separate from the core business logic.
 

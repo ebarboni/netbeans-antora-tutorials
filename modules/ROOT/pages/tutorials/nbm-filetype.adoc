@@ -139,7 +139,7 @@ image::tutorials/filetype_72_new-filetype-4.png[]
 
 Each of the newly generated files is briefly introduced:
 
-* *AbcDataObject.java.* Wraps a  ``FileObject`` . DataObjects are produced by DataLoaders. For more information, see  xref:wiki::wiki/DevFaqDataObject.adoc[What is a DataObject?].
+* *AbcDataObject.java.* Wraps a  ``FileObject`` . DataObjects are produced by DataLoaders. For more information, see  xref:wiki:netbeansdevelopperfaq:DevFaqDataObject.adoc[What is a DataObject?].
 * *AbcTemplate.abc.* Provides the basis of a file template that is registered in the  ``layer.xml``  via an annotation defined in the  ``package-info.java``  file, such that it will be installed in the New File dialog as a new template.
 * *AbcVisualElement.java.* Sample visual tab in multiview editor.
 

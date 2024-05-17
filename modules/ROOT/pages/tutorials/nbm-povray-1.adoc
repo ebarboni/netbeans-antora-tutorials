@@ -141,7 +141,7 @@ image::tutorials/povray_71_ch1_pic-3.png[]
 
 The first thing we will want to create is basic support that enables NetBeans to recognize .pov files and open them in the editor—which will give us a place to hang Actions, provide special icons, and other special support specific to .pov files.
 
-A ` xref:wiki::wiki/DevFaqDataLoader.adoc[DataLoader]` is a factory which is registered against a particular MIME type or file extension. It creates ` xref:wiki::wiki/DevFaqDataObject.adoc[DataObject]`s—typically one per file. So, when you expand a folder in the Projects or Files tab in the IDE, what happens under the hood is that all of the files in the folder you expanded are found, and for each file, the system locates the `DataLoader` for its file type and asks it to create a `DataObject` for it.
+A ` xref:wiki:netbeansdevelopperfaq:DevFaqDataLoader.adoc[DataLoader]` is a factory which is registered against a particular MIME type or file extension. It creates ` xref:wiki:netbeansdevelopperfaq:DevFaqDataObject.adoc[DataObject]`s—typically one per file. So, when you expand a folder in the Projects or Files tab in the IDE, what happens under the hood is that all of the files in the folder you expanded are found, and for each file, the system locates the `DataLoader` for its file type and asks it to create a `DataObject` for it.
 
 `DataObject`s contain logic that enables them to actually parse or understand a files contents, or know what to do with that particular type of file. So there is a 1:1 mapping between files and `DataObjects` and a 1:1 mapping between _file types_ and `DataLoader`s.
 

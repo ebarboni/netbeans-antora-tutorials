@@ -311,7 +311,7 @@ Now go into C:\\AJava\jre\lib and delete the "rt.jar".
 1. Go to C:\\AJava\jre and select the "bin" folder and the "lib" folder. Right-click and ZIP the selected folders. You'll end up with "jre.zip".
 
 [start=4]
-1. Put "unzipsfx.exe",  link:http://www.info-zip.org/pub/infozip/[which can you get here] or  xref:wiki::wiki/DevFaqAccessSourcesUsingMercurial.adoc[by downloading the NetBeans sources] and then looking in the "nbi/infra/build/jvm/tools/unzipsfx" folder, into the same folder as where the "jre.zip" is found. Then, in the folder where "unzipsfx.exe" and "jre.zip" are found, run this:
+1. Put "unzipsfx.exe",  link:http://www.info-zip.org/pub/infozip/[which can you get here] or  xref:wiki:netbeansdevelopperfaq:DevFaqAccessSourcesUsingMercurial.adoc[by downloading the NetBeans sources] and then looking in the "nbi/infra/build/jvm/tools/unzipsfx" folder, into the same folder as where the "jre.zip" is found. Then, in the folder where "unzipsfx.exe" and "jre.zip" are found, run this:
 
 [source,java]
 ----

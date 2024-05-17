@@ -182,7 +182,7 @@ When the module is compiled, you will find a " ``generated-layer.xml`` " file, i
 
 image::tutorials/wizard_70_generated-layer.png[]
 
-The  ``generated-layer.xml``  file provides contributions to the NetBeans central registry (also known as the 'system filesystem'), where fixed folders (such as "Actions" and "Menu") provide placeholders for the registration of the content of menubars, toolbars, and many other NetBeans Platform features. For details, see  xref:wiki::wiki/DevFaqSystemFilesystem.adoc[DevFaqSystemFilesystem].
+The  ``generated-layer.xml``  file provides contributions to the NetBeans central registry (also known as the 'system filesystem'), where fixed folders (such as "Actions" and "Menu") provide placeholders for the registration of the content of menubars, toolbars, and many other NetBeans Platform features. For details, see  xref:wiki:netbeansdevelopperfaq:DevFaqSystemFilesystem.adoc[DevFaqSystemFilesystem].
 
 
 [start=3]

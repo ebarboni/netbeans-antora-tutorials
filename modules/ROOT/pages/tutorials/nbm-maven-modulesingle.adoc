@@ -189,7 +189,7 @@ When you click Finish, the IDE creates the files shown below:
 
 image::tutorials/maven-single_71_pic7.png[title="Module wizard 1"]
 
-For more details on the files that the IDE created, see  xref:wiki::wiki/DevFaqDataObject.adoc[What is a DataObject] and the section on  xref:tutorials/nbm-filetype.adoc#recognizing[Recognizing Abc Files] in the Ant-Based  xref:tutorials/nbm-filetype.adoc[File Type Integration Tutorial].
+For more details on the files that the IDE created, see  xref:wiki:netbeansdevelopperfaq:DevFaqDataObject.adoc[What is a DataObject] and the section on  xref:tutorials/nbm-filetype.adoc#recognizing[Recognizing Abc Files] in the Ant-Based  xref:tutorials/nbm-filetype.adoc[File Type Integration Tutorial].
 
 
 == Building and Running the Project

@@ -176,10 +176,10 @@ image::tutorials/test_result-3.png[]
 Typical questions relating to unit testing on the NetBeans Platform relate to specific NetBeans API objects and the central registry (also known as "System FileSystem"). For information on how to test these parts of your application, see the following resources:
 
 *  link:http://openide.netbeans.org/tutorial/test-patterns.html[Typical Test Patterns]
-*  xref:wiki::wiki/TestingThingsThatUseFileObjectDataObjectDataFolder.adoc[Writing Tests with FileObjects, DataObjects, and DataFolders]
-*  xref:wiki::wiki/DevFaqTestDataObject.adoc[Writing Tests with DataObjects and DataLoaders]
+*  xref:wiki:netbeanstestfaq:TestingThingsThatUseFileObjectDataObjectDataFolder.adoc[Writing Tests with FileObjects, DataObjects, and DataFolders]
+*  xref:wiki:netbeanstestfaq:DevFaqTestDataObject.adoc[Writing Tests with DataObjects and DataLoaders]
 *  xref:wiki::wiki/InitializationOfDefaultLookup.adoc[Writing Tests with Lookup]
-*  xref:wiki::wiki/DevFaqTestUsingSystemFileSystem.adoc[How do I test something which uses the System Filesystem?]
+*  xref:wiki:netbeanstestfaq:DevFaqTestUsingSystemFileSystem.adoc[How do I test something which uses the System Filesystem?]
 
 
 == Functional Testing on the NetBeans Platform
@@ -417,15 +417,15 @@ Further reading, advice, and warnings related to code coverage can be found  xre
 This concludes the NetBeans Platform Testing Tutorial. This document has described how to add unit testing and functional testing functionality to a NetBeans Platform application. For more information about testing on the NetBeans Platform, see the following resources:
 
 *  link:http://openide.netbeans.org/tutorial/test-patterns.html[Typical Test Patterns]
-*  xref:wiki::wiki/NetBeansDeveloperTestFAQ.adoc[ NetBeans Developer Test FAQ]
+*  xref:wiki:netbeanstestfaq:NetBeansDeveloperTestFAQ.adoc[ NetBeans Developer Test FAQ]
 *  link:http://blogs.oracle.com/coreqa/entry/xtest_is_dead_long_live[XTest is Dead Long Live Simpletests]
-*  xref:wiki::wiki/FitnessTestsWithoutX.adoc[FitnessTestsWithoutX]
-*  xref:wiki::wiki/DevFaqUsingSimpletests.adoc[Using Simpletests]
+*  xref:wiki:performance:FitnessTestsWithoutX.adoc[FitnessTestsWithoutX]
+*  xref:wiki:netbeanstestfaq:DevFaqUsingSimpletests.adoc[Using Simpletests]
 *  link:http://forums.netbeans.org/topic10210.html[http://forums.netbeans.org/topic10210.html]
 *  xref:wiki::wiki/JellyTools.adoc[JellyTools]
-*  xref:wiki::wiki/DevRunningTestsPlatformApp.adoc[Running tests on a platform application]
-*  xref:wiki::wiki/TestingThingsThatUseFileObjectDataObjectDataFolder.adoc[ Testing things that use FileObjects]
-*  xref:wiki::wiki/DevFaqTestDataObject.adoc[ Writing Tests for DataObjects and DataLoaders]
-*  xref:wiki::wiki/DevFaqTestUsingSystemFileSystem.adoc[ How do I test something which uses the System Filesystem?]
+*  xref:wiki:netbeanstestfaq:DevRunningTestsPlatformApp.adoc[Running tests on a platform application]
+*  xref:wiki:netbeanstestfaq:TestingThingsThatUseFileObjectDataObjectDataFolder.adoc[ Testing things that use FileObjects]
+*  xref:wiki:netbeanstestfaq:DevFaqTestDataObject.adoc[ Writing Tests for DataObjects and DataLoaders]
+*  xref:wiki:netbeanstestfaq:DevFaqTestUsingSystemFileSystem.adoc[ How do I test something which uses the System Filesystem?]
 *  link:http://performance.netbeans.org/insane/index.html[INSANE]
 *  xref:wiki::wiki/CodeCoverage.adoc[Code Coverage]

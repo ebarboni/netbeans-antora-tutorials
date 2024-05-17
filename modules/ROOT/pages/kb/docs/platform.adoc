@@ -75,7 +75,7 @@ The dzone link:https://dzone.com/refcardz/netbeans-platform-70[Essential NetBean
 
 === Wiki
 
-Our wiki's xref:wiki::wiki/DevFaqIndex.adoc[+NetBeans Developer FAQ+] has interesting "tricks" you may want to take a look at.  
+Our wiki's xref:wiki:netbeansdevelopperfaq:DevFaqIndex.adoc[+NetBeans Developer FAQ+] has interesting "tricks" you may want to take a look at.  
 xref:wiki::wiki/NbmIdioms.adoc[NetBeans APIs idioms] is also useful to know the answers to many frequent questions.
 
 === Blogs

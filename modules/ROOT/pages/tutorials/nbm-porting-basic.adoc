@@ -788,7 +788,7 @@ Below is a list of the principle differences between the typical Swing approach 
 * Assigning of mnemonics to labels and buttons
 * Showing dialogs
 
-For details on all of the above items, read this FAQ:  xref:wiki::wiki/DevFaqNbIdiosyncracies.adoc[Common calls that should be done slightly differently in NetBeans than standard Swing apps (loading images, localized strings, showing dialogs)].
+For details on all of the above items, read this FAQ:  xref:wiki:netbeansdevelopperfaq:DevFaqNbIdiosyncracies.adoc[Common calls that should be done slightly differently in NetBeans than standard Swing apps (loading images, localized strings, showing dialogs)].
 
 In addition, note that, since the NetBeans Platform now handles the lifecycle of your module, since it is now part of the whole application, you can no longer use  ``System.exit`` . Instead, you need to use  ``LifecycleManager`` . To run code on start up, which should only be done when absolutely necessary, you need to use the NetBeans  ``ModuleInstall``  class and, specifically, its  ``restored``  method. A useful reference in this context is  link:http://www.ociweb.com/jnb/jnbOct2005.html#porting[Porting a Java Swing Application to the NetBeans Platform], by Tom Wheeler, in  link:http://www.ociweb.com/jnb/jnbOct2005.html#porting[Building A Complete NetBeans Platform Application].
 

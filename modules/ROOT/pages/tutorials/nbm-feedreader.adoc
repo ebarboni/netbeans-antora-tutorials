@@ -278,7 +278,7 @@ link:https://bits.netbeans.org/dev/javadoc/org-openide-util/org/openide/util/NbB
 public class FeedTopComponent extends TopComponent {
 ----
 
-NOTE:  While the module is being compiled, the annotations above will be processed. XML entries will be created in the module's  ``generated-layer.xml``  file, for each of the @TopComponent* and @Action* annotations. The  ``generated-layer.xml``  file will be contributed by the module to the System Filesystem of the application. Read more  xref:wiki::wiki/DevFaqSystemFilesystem.adoc[about the System Filesystem here]. For example, the  ``FeedTopComponent``  will be displayed in the main area of the application, defined by the "editor" position, as specified by the  ``@TopComponent.Registration``  annotation above. For each item defined in the  ``@Messages``  annotation, a new key/value string is generated into a  ``Bundle.java``  class.
+NOTE:  While the module is being compiled, the annotations above will be processed. XML entries will be created in the module's  ``generated-layer.xml``  file, for each of the @TopComponent* and @Action* annotations. The  ``generated-layer.xml``  file will be contributed by the module to the System Filesystem of the application. Read more  xref:wiki:netbeansdevelopperfaq:DevFaqSystemFilesystem.adoc[about the System Filesystem here]. For example, the  ``FeedTopComponent``  will be displayed in the main area of the application, defined by the "editor" position, as specified by the  ``@TopComponent.Registration``  annotation above. For each item defined in the  ``@Messages``  annotation, a new key/value string is generated into a  ``Bundle.java``  class.
 
 
 [start=4]
